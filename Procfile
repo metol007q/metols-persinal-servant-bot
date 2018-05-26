@@ -1,1 +1,1 @@
-worker: python metols_loyal_servent.py
+worker: python metolsloyalservent.py
