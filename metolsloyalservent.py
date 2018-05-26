@@ -3,6 +3,7 @@
 import discord
 from discord.ext import commands
 from discord.ext.commands import bot
+import os
 
 bot = commands.Bot(command_prefix="")
 
@@ -20,4 +21,4 @@ async def ping(ctx):
 async def fuck(ctx):
 	await bot.say("Ill fuck you anytime")
 
-bot.run(os.getenvTOKEN)
+bot.run(os.environ.["TOKEN"])
