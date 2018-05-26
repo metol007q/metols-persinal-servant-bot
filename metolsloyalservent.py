@@ -17,8 +17,17 @@ async def on_ready():
 async def ping(ctx):
 	await bot.say("pong")
 	
+chat_filter = ["fuck"]
+bypass_list = [445064818412617729]
+
 @bot.command(pass_context=True)
-async def fuck(ctx):
-	await bot.say("Ill fuck you anytime")
+async def on_message(message):
+	contents = message.content.split("")
+	for word in contents:
+		if word.upper() in chat_filter:
+			if not message.author.id in bypass_list:
+				try:
+					await client.delete_message (messae)
+					await client.send_message(message.channel, "you cant say fuck anymore"
 
 bot.run(os.environ["TOKEN"])
