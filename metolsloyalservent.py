@@ -20,4 +20,4 @@ async def ping(ctx):
 async def fuck(ctx):
 	await bot.say("Ill fuck you anytime")
 
-bot.run(config.TOKEN)
+bot.run(os.getenvTOKEN)
