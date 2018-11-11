@@ -29,7 +29,7 @@ async def tits(ctx):
 async def tit(ctx):
 	await bot.say("(.)")
 
-bot.on('message', message => {
+bot.on('message', message {
 	var msg = message.content();
 	
 	if (msg.includes('test'))
