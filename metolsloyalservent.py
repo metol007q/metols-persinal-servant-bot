@@ -29,9 +29,4 @@ async def tits(ctx):
 async def tit(ctx):
 	await bot.say("(.)")
 
-bot.on('message', message)
-if (msg.includes('test')
-	message.send('test')
-
-
 bot.run(os.environ["TOKEN"])
