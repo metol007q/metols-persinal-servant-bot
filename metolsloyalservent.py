@@ -29,9 +29,8 @@ async def tits(ctx):
 async def tit(ctx):
 	await bot.say("(.)")
 
-bot.on('message', message
-if (msg.includes('test'))
-	message.dlete():
+bot.on('message', message)
+if (msg.includes('test')
 	message.send('test')
 
 
