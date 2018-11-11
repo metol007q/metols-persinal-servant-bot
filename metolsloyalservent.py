@@ -28,5 +28,9 @@ async def tits(ctx):
 @bot.command(pass_context=True)
 async def tit(ctx):
 	await bot.say("(.)")
+	
+@bot.command(pass_context=True)
+async def on_message(test):
+	await bot.send_message(test)
 
 bot.run(os.environ["TOKEN"])
