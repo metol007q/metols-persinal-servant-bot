@@ -25,7 +25,7 @@ async def fuck(ctx):
 async def tits(ctx):
 	await bot.say("(.Y.)")
 	
-	@bot.command(pass_context=True)
+@bot.command(pass_context=True)
 async def tit(ctx):
 	await bot.say("(.)")
 
