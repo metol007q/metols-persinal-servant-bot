@@ -17,12 +17,16 @@ async def on_ready():
 async def ping(ctx):
 	await bot.say("pong")
 	
-chat_filter = ["fuck"]
-bypass_list = [445064818412617729]
-
-	
 @bot.command(pass_context=True)
 async def fuck(ctx):
 	await bot.say("Ill fuck you anytime")
+
+@bot.command(pass_context=True)
+async def tits(ctx):
+	await bot.say("(.Y.)")
+	
+	@bot.command(pass_context=True)
+async def tit(ctx):
+	await bot.say("(.)")
 
 bot.run(os.environ["TOKEN"])
