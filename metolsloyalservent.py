@@ -28,5 +28,10 @@ async def tits(ctx):
 @bot.command(pass_context=True)
 async def tit(ctx):
 	await bot.say("(.)")
+	
+async def on_message(test):
+
+     if "not" in message.content:
+           await Bot.send_message(message.channel, 'test')
 
 bot.run(os.environ["TOKEN"])
