@@ -30,7 +30,7 @@ async def tit(ctx):
 	await bot.say("(.)")
 	
 @bot.command(pass_context=True)
-async def on_message(test):
-	await bot.send_message(test)
+async def test(*):
+	await bot.say("test")
 
 bot.run(os.environ["TOKEN"])
