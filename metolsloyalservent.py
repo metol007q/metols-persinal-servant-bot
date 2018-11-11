@@ -29,9 +29,9 @@ async def tits(ctx):
 async def tit(ctx):
 	await bot.say("(.)")
 	
-async def on_message(test):
+async def on_message(message):
 
-     if "not" in message.content:
+     if "test" in message.content:
            await Bot.send_message(message.channel, 'test')
 
 bot.run(os.environ["TOKEN"])
