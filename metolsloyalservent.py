@@ -32,9 +32,5 @@ async def tit(ctx):
 @bot.command(pass_context=True)
 async def ass(ctx):
 	await bot.say("(‿ˠ‿)")
-	
-@bot.command(pass_context=True)
-async def midna_are_you_up(ctx):
-	await bot.say(":midnafile:")
 
 bot.run(os.environ["TOKEN"])
